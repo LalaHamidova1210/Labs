@@ -1,6 +1,6 @@
-package homeWorks;
-
-public class simpleArraySum {
-
-
-}
+//package homeWorks;
+//
+//public class simpleArraySum {
+//
+//
+//}
