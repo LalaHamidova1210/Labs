@@ -5,7 +5,7 @@ public class SmartHome implements Manageable {
     private List<User> users;
     private List<smartHomeManagement.Device> devices;
 
-    public SmartHome(List<User> users, List<smartHomeManagement.Device> devices) {
+    public SmartHome() {
         this.users = new ArrayList<>();
         this.devices = new ArrayList<>();
     }

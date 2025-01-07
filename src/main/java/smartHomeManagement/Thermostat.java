@@ -2,7 +2,7 @@ package smartHomeManagement;
 
 public class Thermostat extends smartHomeManagement.Device {
     private int temperature;
-    public Thermostat(int id, String name, boolean status, DeviceType deviceType) {
+    public Thermostat(int id, String name) {
         super(id, name, DeviceType.THERMOSTAT);
     }
 

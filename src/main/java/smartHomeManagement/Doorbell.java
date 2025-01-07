@@ -1,7 +1,7 @@
 package smartHomeManagement;
 
 public class Doorbell extends smartHomeManagement.Device {
-    public Doorbell(int id, String name, boolean status, DeviceType deviceType) {
+    public Doorbell(int id, String name) {
         super(id, name,  DeviceType.DOORBELL);
     }
     public void turnOn (){

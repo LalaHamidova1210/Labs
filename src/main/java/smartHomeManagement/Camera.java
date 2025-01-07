@@ -1,7 +1,7 @@
 package smartHomeManagement;
 
 public class Camera extends Device {
-    public Camera(int id, String name, boolean status, DeviceType deviceType) {
+    public Camera(int id, String name) {
         super(id, name, DeviceType.CAMERA);
     }
     public void turnOn (){

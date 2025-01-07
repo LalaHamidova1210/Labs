@@ -1,7 +1,7 @@
 package smartHomeManagement;
 
 public class Light extends smartHomeManagement.Device {
-    public Light(int id, String name, boolean status, DeviceType deviceType) {
+    public Light(int id, String name) {
         super(id, name,  DeviceType.LIGHT);
     }
 
